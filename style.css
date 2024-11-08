@@ -1,0 +1,63 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.nav{
+    background-color: rgb(255, 66, 66);
+    color: white;
+    padding: 2%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    
+    margin: 2%;
+    padding: 1%;
+    
+
+
+    img{
+        width: 250px; /* Adjust width as needed */
+        height: 350px; /* Adjust height to get a vertical rectangle */
+        border-radius: 8px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .info{
+        display: flex;
+        padding: 3% 5%;
+        flex-direction: column;
+    }
+
+    i{
+        color: red;
+    }
+
+    a{
+        color: grey;
+    }
+
+    .loc{
+        font-family: "Montserrat", sans-serif;
+    }
+
+
+   
+}
+
+hr{
+    width: 95%;
+}
+
+
